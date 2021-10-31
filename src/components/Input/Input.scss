@@ -1,0 +1,67 @@
+.input-wrapper {
+    margin-top: 30px;
+
+    &-target {
+        position: relative;
+        display: inline-block;
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 30px;
+    }
+}
+.input {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #C1C1C1;
+    border-radius: 16px;
+    padding: 24px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5B5B5B; 
+
+
+    &-show-password {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 25px;
+        cursor: pointer;
+        z-index: 33;
+    }
+
+    &_error {
+        border: 1px solid #D23737;
+    }
+
+    &_confirm {
+        border: 1px solid #87D78B;
+    }
+    
+    &-text-error {
+        display: inline-block;
+        margin-top: 12px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #D23737;
+        transition: all 5s;
+    }
+}
+
+@media (max-width: 590px) {
+    .input-wrapper {
+        margin-top: 20px;
+    }
+    .input {
+
+        padding: 18px;
+    }
+}

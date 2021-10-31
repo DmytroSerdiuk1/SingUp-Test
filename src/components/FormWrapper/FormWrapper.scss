@@ -1,0 +1,46 @@
+.form-wrapper {
+    max-width: 570px;
+    padding: 30px 35px 35px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-footer {
+        margin-top: 30px;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #5B5B5B;
+        margin-bottom: 35px;
+        margin-top: 25px;
+    }
+
+    &-description {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #5B5B5B;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        span {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration-line: underline;
+            color: #3C9C41;
+        }
+    }
+}

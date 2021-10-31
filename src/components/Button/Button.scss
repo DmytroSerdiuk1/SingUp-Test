@@ -1,0 +1,27 @@
+.button {
+    background: #3C9C41;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 25px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 30px;
+
+    &:hover {
+        background: #4DB252;
+    }
+
+    &:active {
+        background: #318636;
+    }
+}
+
+@media (max-width: 590px) {
+    .button {
+        padding: 15px;
+    }
+}

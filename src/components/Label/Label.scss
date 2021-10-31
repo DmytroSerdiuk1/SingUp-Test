@@ -1,0 +1,13 @@
+.input-label {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5B5B5B;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 590px) {
+    .input-label {
+        font-size: 16px;
+    }
+}
